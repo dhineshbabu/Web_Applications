@@ -1,0 +1,27 @@
+check w3cschools for block level and inline elements
+
+html 5 semantics
+================
+header
+footer
+nav
+main
+section
+article
+aside
+
+Units:
+1em = 16px (parent)
+1rem = 16px (root)
+
+Fonts:
+http://fonts.google.com/
+
+Colors:
+https://www.color-hex.com/
+
+Images:
+https://www.pexels.com/
+
+
+

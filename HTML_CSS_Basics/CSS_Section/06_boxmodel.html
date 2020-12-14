@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model, Margin and Padding</title>
+    <style>
+
+        /* CSS Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box; /*Padding wont increse the box size*/
+        }
+
+        .box {
+            background: #f4f4f4;
+            border: black 3px solid;
+            width: 500px;
+
+            /* Padding on all sides*/
+            padding: 20px;
+
+            /* Padding per side */
+            padding-right: 10px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 10px;
+
+            /* Padding shorthand = top, right, bottom, left */
+            padding: 10px 20px 10px 20px;
+
+            /* Padding shorthand = top/bottom, left/right */
+            padding: 10px 20px;
+
+            /* margin on all sides*/
+            margin: 20px;
+
+            /* Margin per side */
+            margin-right: 10px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-left: 10px;
+
+            /* Margin shorthand = top, right, bottom, left */
+            margin: 10px 20px 10px 20px;
+
+            /* Margin shorthand = top/bottom, left/right */
+            margin: 10px 20px;
+        }
+
+        .box p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h3>Box One</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quas iure accusamus minus voluptatem, nulla nesciunt provident fuga autem illo.</p>
+    </div>
+    <div class="box">
+        <h3>Box Two</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quas iure accusamus minus voluptatem, nulla nesciunt provident fuga autem illo.</p>
+    </div>
+</body>
+</html>
