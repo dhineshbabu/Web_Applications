@@ -83,6 +83,7 @@ p {
 
 .l-heading {
     font-size: 40px;
+    line-height: 1.2;
 }
 
 /* Padding */
@@ -153,7 +154,7 @@ p {
 
 /* Home Info Styling */ 
 #home-info {
-    height: 400px;
+    height: 450px;
 }
 
 #home-info .info-img{
