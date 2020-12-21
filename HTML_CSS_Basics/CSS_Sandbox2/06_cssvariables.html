@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variables</title>
+    <style>
+
+        :root {
+            /* variable */
+            --light-color: #f4f4f4;
+            --primary-color: steelblue;
+            --secondary-color: skyblue;
+            --max-width: 1100px;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.4;
+    
+            background: var(--light-color);
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: var(--secondary-color);
+            text-align: center;
+            border-bottom: 5px var(--secondary-color) solid;
+        }
+
+        .container {
+            display: flex;
+            line-height: 1.4;
+            max-width: var(--max-width);
+        }
+
+        .box {
+            background-color: var(--primary-color);
+            border-bottom: spx var(--secondary-color) solid;
+            color: #fff;
+            padding: 1rem;
+            margin: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CSS Variables</h1>
+    </header>
+
+    <div class="container">
+        <div class="box box-1">
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, impedit!</p>
+        </div>
+        <div class="box box-2">
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, impedit!</p>
+        </div>
+        <div class="box box-3">
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, impedit!</p>
+        </div>
+    </div>
+</body>
+</html>
